@@ -9,8 +9,8 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        PinchZoomImageView img = (PinchZoomImageView) findViewById(R.id.imageview);
-        img.setImageResource(R.drawable.ic_launcher_background);
+        PinchZoomImageView img = findViewById(R.id.imageview);
+        img.setImageResource(R.drawable.hoverdroids);
         img.setMaxZoom(4f);
     }
 }
